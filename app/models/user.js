@@ -9,5 +9,5 @@ var userSchema=new Schema({
 });
 
 // pass mongoose model using module.exports
-var User=mongoose.model(User,userSchema);
+var User=mongoose.model('User',userSchema);
 module.exports=User;
